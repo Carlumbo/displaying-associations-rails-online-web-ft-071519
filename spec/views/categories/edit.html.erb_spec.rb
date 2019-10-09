@@ -1,5 +1,5 @@
 require 'rails_helper'
-
+=begin
 RSpec.describe "categories/edit", type: :feature do
   it 'shows an update form that submits content, redirects, and shows the updated content' do
     visit edit_category_path(@category)
@@ -11,4 +11,5 @@ RSpec.describe "categories/edit", type: :feature do
     expect(current_path).to eq(category_path(@category))
     expect(page).to have_content("My Edited Category")
   end
-end
+en
+=end 
